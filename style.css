@@ -194,7 +194,7 @@ img {
 }
 
 h1 {
-  font-size: 5.5rem;
+  font-size: 9.5rem;
   line-height: 1.35;
 }
 
@@ -204,7 +204,7 @@ h4 {
 }
 
 .header__img {
-  width: 500;
+  width: 150%;
   grid-column: 2 / 3;
   grid-row: 1 / span 4;
   transform: translateY(-6rem);
