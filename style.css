@@ -196,6 +196,9 @@ img {
 h1 {
   font-size: 9.5rem;
   line-height: 1.35;
+  font-family: "new-spirit", serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 h4 {
