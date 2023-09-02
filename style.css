@@ -675,3 +675,162 @@ h4 {
   font-size: 1.5rem;
   font-weight: 400;
 }
+
+@media (max-width: 768px) {
+            /* Adjust styles for smaller screens */
+
+            /* General Elements */
+            .section {
+                padding: 10rem 2rem; /* Reduce padding for smaller screens */
+            }
+
+            .section--hidden {
+                transform: translateY(5rem); /* Adjust hidden section transform */
+            }
+
+            .section__title {
+                margin: 0 auto 4rem auto; /* Adjust margin for smaller screens */
+            }
+
+            .header {
+                padding: 0 2rem; /* Reduce padding for smaller screens */
+            }
+
+            h1 {
+                font-size: 5rem; /* Adjust header font size */
+            }
+
+            h4 {
+                font-size: 1.8rem; /* Adjust subtitle font size */
+            }
+
+            .header__img {
+                width: 100%; /* Make header image responsive */
+            }
+
+            /* Navigation */
+            .nav {
+                height: 6rem; /* Reduce navigation height */
+                padding: 0 2rem; /* Reduce navigation padding */
+            }
+
+            .nav__logo {
+                height: 3rem; /* Reduce logo height */
+            }
+
+            .nav__links {
+                display: none; /* Hide navigation links initially */
+            }
+
+            .nav__item {
+                margin-left: 2rem; /* Reduce margin between navigation items */
+            }
+
+            .nav__link:link,
+            .nav__link:visited {
+                font-size: 1.4rem; /* Adjust navigation link font size */
+            }
+
+            .nav__link--btn:link,
+            .nav__link--btn:visited {
+                padding: 0.5rem 1.5rem; /* Adjust button padding */
+                font-size: 1.5rem; /* Adjust button font size */
+            }
+
+            /* Features */
+            .features {
+                grid-template-columns: 1fr; /* Stack features in a single column */
+                margin: 0 2rem; /* Adjust margin for smaller screens */
+            }
+
+            .features__img {
+                width: 100%; /* Make feature images responsive */
+            }
+
+            .features__feature {
+                font-size: 1.4rem; /* Adjust feature text font size */
+                margin-bottom: 2rem; /* Adjust margin between features */
+            }
+
+            /* Operations */
+            .operations {
+                margin: 6rem auto 0 auto; /* Adjust margin for smaller screens */
+            }
+
+            .operations__tab-container {
+                justify-content: center; /* Center tabs */
+            }
+
+            .operations__tab {
+                margin-right: 1rem; /* Reduce margin between tabs */
+            }
+
+            .operations__tab span {
+                margin-right: 0.5rem; /* Reduce margin between tab labels */
+            }
+
+            /* Slider */
+            .slider {
+                height: 30rem; /* Adjust slider height */
+            }
+
+            .slide > img {
+                height: 100%; /* Make slider images responsive */
+            }
+
+            .dots {
+                bottom: 2%; /* Adjust dot position */
+            }
+
+            /* Testimonials */
+            .testimonial {
+                width: 90%; /* Adjust testimonial width */
+            }
+
+            .testimonial__text {
+                font-size: 1.4rem; /* Adjust testimonial text font size */
+                margin-bottom: 2rem; /* Adjust margin between testimonial elements */
+            }
+
+            /* Signup */
+            .section--sign-up {
+                padding: 5rem 2rem; /* Adjust padding for smaller screens */
+            }
+
+            .section--sign-up .section__title {
+                margin-bottom: 3rem; /* Adjust margin for smaller screens */
+            }
+
+            .section--sign-up .btn {
+                font-size: 1.5rem; /* Adjust button font size */
+                padding: 1.5rem 4rem; /* Adjust button padding */
+            }
+
+            /* Footer */
+            .footer {
+                padding: 5rem 2rem; /* Adjust padding for smaller screens */
+            }
+
+            .footer__nav {
+                margin-bottom: 3rem; /* Adjust margin between footer items */
+            }
+
+            .footer__logo {
+                height: 3rem; /* Reduce logo height */
+            }
+
+            .footer__copyright {
+                font-size: 1.2rem; /* Adjust copyright text font size */
+            }
+
+            /* Modal Window */
+            .modal {
+                max-width: 90%; /* Adjust modal width */
+                padding: 3rem 2rem; /* Adjust padding for smaller screens */
+            }
+
+            /* Cookie Message */
+            .cookie-message {
+                font-size: 1.2rem; /* Adjust font size */
+            }
+        }
