@@ -77,6 +77,12 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.hero-dark {
+  background-color: #2b2b2b;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .main-header {
   height: 8rem;
