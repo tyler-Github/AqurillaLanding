@@ -2,7 +2,7 @@
 
 Welcome to Camphouse, the all-new social media experience that's sure to spark your sense of adventure! ✨
 
-![Camphouse Logo](https://cdn.discordapp.com/attachments/742574117735235644/1152551291789246594/camphouse-wt.png) <!-- Replace with your actual logo image URL -->
+![Camphouse Logo](https://www.camphouse.net/img/icon.png) <!-- Replace with your actual logo image URL -->
 
 This repository contains the source code for our landing page, where you can learn more about Camphouse and stay up-to-date with our latest developments.
 
