@@ -11,7 +11,7 @@
   --color-secondary-opacity: #ffc34d;
   --color-tertiary-opacity: #ffc34d;
   --gradient-primary: #ffc34d;
-  --gradient-secondary: #ffc34d;
+  --gradient-secondary: #ffc34d);
 }
 
 * {
@@ -28,9 +28,9 @@ html {
 body {
   font-family: 'GT Maru', sans-serif;
   font-weight: 300;
-  color: rgb(0, 0, 0);
+  color: #000;
   line-height: 1.9;
-  background-color: #f1efe3;
+  background-color: #ffffff;
 }
 
 /* GENERAL ELEMENTS */
@@ -96,7 +96,7 @@ body {
 }
 
 p {
-  color: rgb(#fff);
+  color: #000;
 }
 
 /* This is BAD for accessibility! Don't do in the real world! */
@@ -106,10 +106,13 @@ button:focus {
 
 img {
   transition: filter 0.5s;
+  transition: filter 0.5s;
 }
 
 .lazy-img {
-  filter: blur(20px);
+  filter: blur(0px);
+  width: 75%;
+  height: auto;
 }
 
 /* NAVIGATION */
@@ -167,7 +170,7 @@ img {
 .nav__link--btn:active {
   color: inherit;
   background-color: var(--color-primary-darker);
-  color: #333;
+  color: #000;
 }
 
 /* HEADER */
@@ -194,11 +197,9 @@ img {
 }
 
 h1 {
-  font-size: 9.5rem;
+  font-size: 6.5rem;
   line-height: 1.35;
   font-family: "new-spirit", serif;
-  font-weight: 700;
-  font-style: normal;
 }
 
 h4 {
@@ -241,6 +242,7 @@ h4 {
 
 .features__img {
   width: 100%;
+  height: auto;
 }
 
 .features__feature {
@@ -551,7 +553,7 @@ h4 {
 /* FOOTER */
 .footer {
   padding: 10rem 3rem;
-  background-color: #000000;
+  background-color: #ffc34d;
 }
 
 .footer__nav {
@@ -567,7 +569,7 @@ h4 {
 
 .footer__link {
   font-size: 1.6rem;
-  color: #eee;
+  color: #000;
   text-decoration: none;
 }
 
@@ -580,7 +582,7 @@ h4 {
 
 .footer__copyright {
   font-size: 1.4rem;
-  color: #aaa;
+  color: #1d1d1d;
   text-align: center;
 }
 
@@ -675,162 +677,20 @@ h4 {
   font-size: 1.5rem;
   font-weight: 400;
 }
-
-@media (max-width: 768px) {
-            /* Adjust styles for smaller screens */
-
-            /* General Elements */
-            .section {
-                padding: 10rem 2rem; /* Reduce padding for smaller screens */
-            }
-
-            .section--hidden {
-                transform: translateY(5rem); /* Adjust hidden section transform */
-            }
-
-            .section__title {
-                margin: 0 auto 4rem auto; /* Adjust margin for smaller screens */
-            }
-
-            .header {
-                padding: 0 2rem; /* Reduce padding for smaller screens */
-            }
-
-            h1 {
-                font-size: 5rem; /* Adjust header font size */
-            }
-
-            h4 {
-                font-size: 1.8rem; /* Adjust subtitle font size */
-            }
-
-            .header__img {
-                width: 100%; /* Make header image responsive */
-            }
-
-            /* Navigation */
-            .nav {
-                height: 6rem; /* Reduce navigation height */
-                padding: 0 2rem; /* Reduce navigation padding */
-            }
-
-            .nav__logo {
-                height: 3rem; /* Reduce logo height */
-            }
-
-            .nav__links {
-                display: none; /* Hide navigation links initially */
-            }
-
-            .nav__item {
-                margin-left: 2rem; /* Reduce margin between navigation items */
-            }
-
-            .nav__link:link,
-            .nav__link:visited {
-                font-size: 1.4rem; /* Adjust navigation link font size */
-            }
-
-            .nav__link--btn:link,
-            .nav__link--btn:visited {
-                padding: 0.5rem 1.5rem; /* Adjust button padding */
-                font-size: 1.5rem; /* Adjust button font size */
-            }
-
-            /* Features */
-            .features {
-                grid-template-columns: 1fr; /* Stack features in a single column */
-                margin: 0 2rem; /* Adjust margin for smaller screens */
-            }
-
-            .features__img {
-                width: 100%; /* Make feature images responsive */
-            }
-
-            .features__feature {
-                font-size: 1.4rem; /* Adjust feature text font size */
-                margin-bottom: 2rem; /* Adjust margin between features */
-            }
-
-            /* Operations */
-            .operations {
-                margin: 6rem auto 0 auto; /* Adjust margin for smaller screens */
-            }
-
-            .operations__tab-container {
-                justify-content: center; /* Center tabs */
-            }
-
-            .operations__tab {
-                margin-right: 1rem; /* Reduce margin between tabs */
-            }
-
-            .operations__tab span {
-                margin-right: 0.5rem; /* Reduce margin between tab labels */
-            }
-
-            /* Slider */
-            .slider {
-                height: 30rem; /* Adjust slider height */
-            }
-
-            .slide > img {
-                height: 100%; /* Make slider images responsive */
-            }
-
-            .dots {
-                bottom: 2%; /* Adjust dot position */
-            }
-
-            /* Testimonials */
-            .testimonial {
-                width: 90%; /* Adjust testimonial width */
-            }
-
-            .testimonial__text {
-                font-size: 1.4rem; /* Adjust testimonial text font size */
-                margin-bottom: 2rem; /* Adjust margin between testimonial elements */
-            }
-
-            /* Signup */
-            .section--sign-up {
-                padding: 5rem 2rem; /* Adjust padding for smaller screens */
-            }
-
-            .section--sign-up .section__title {
-                margin-bottom: 3rem; /* Adjust margin for smaller screens */
-            }
-
-            .section--sign-up .btn {
-                font-size: 1.5rem; /* Adjust button font size */
-                padding: 1.5rem 4rem; /* Adjust button padding */
-            }
-
-            /* Footer */
-            .footer {
-                padding: 5rem 2rem; /* Adjust padding for smaller screens */
-            }
-
-            .footer__nav {
-                margin-bottom: 3rem; /* Adjust margin between footer items */
-            }
-
-            .footer__logo {
-                height: 3rem; /* Reduce logo height */
-            }
-
-            .footer__copyright {
-                font-size: 1.2rem; /* Adjust copyright text font size */
-            }
-
-            /* Modal Window */
-            .modal {
-                max-width: 90%; /* Adjust modal width */
-                padding: 3rem 2rem; /* Adjust padding for smaller screens */
-            }
-
-            /* Cookie Message */
-            .cookie-message {
-                font-size: 1.2rem; /* Adjust font size */
-            }
+        .banner {
+            background-color: #ff6b6b;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 18px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 9999;
+        }
+        .banner a {
+            color: white;
+            font-weight: bold;
+            text-decoration: underline;
         }
