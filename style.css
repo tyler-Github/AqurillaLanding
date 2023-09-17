@@ -677,20 +677,22 @@ h4 {
   font-size: 1.5rem;
   font-weight: 400;
 }
-        .banner {
-            background-color: #ff6b6b;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            font-size: 18px;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            z-index: 9999;
-        }
-        .banner a {
-            color: white;
-            font-weight: bold;
-            text-decoration: underline;
-        }
+
+/* BANNER */
+.banner {
+  background-color: #ffc34d;
+  color: #000;
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+  position: ;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+ .banner a {
+  color: #000;
+  font-weight: bold;
+  text-decoration: underline;
+}
