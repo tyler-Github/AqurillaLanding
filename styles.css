@@ -94,6 +94,11 @@ h1 {
   margin: 0 auto;
 }
 
+.container2 {
+  max-width: 75%;
+  margin: 0 auto;
+}
+
 .main-nav {
   height: 100%;
   padding: 18px;
@@ -164,6 +169,13 @@ h1 {
 
 .row {
   display: grid;
+  grid-template-columns: repeat(var(--num-of-grid-columns), 1fr);
+  gap: 0.2rem;
+  padding: var(--section-spacing);
+}
+
+.row2 {
+  display: ;
   grid-template-columns: repeat(var(--num-of-grid-columns), 1fr);
   gap: 0.2rem;
   padding: var(--section-spacing);
