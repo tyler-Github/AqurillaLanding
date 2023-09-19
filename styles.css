@@ -15,6 +15,11 @@
   src: url("./assets/fonts/whitneybold.woff") format("woff");
 }
 
+@font-face {
+  font-family: "Uni Sans Heavy";
+  src: url("./assets/fonts/unisans.woff") format("woff");
+}
+
 /*---fonts files addings done--*/
 
 /*---writing root properties used in this page---*/
@@ -22,7 +27,7 @@
 :root {
   --light-clr: #fff;
   --dark-clr: #23272a;
-  --brand-clr: #ffc34d;
+  --brand-clr: #7685e5;
   --off-white-clr: #f6f6f6;
   --general-font-size: 2rem;
   --primary-title-font-size: 4.8rem;
@@ -30,6 +35,7 @@
   --main-font-family-light: "Whitney Light", sans-serif;
   --main-font-family-medium: "Whitney Medium", sans-serif;
   --main-font-family-bold: "Whitney Bold", sans-serif;
+  --title-font-family: "new-spirit", sans-serif;
   --num-of-grid-columns: 4;
   --section-spacing: 5.6rem 2.4rem;
   --container-width: 126rem;
@@ -64,7 +70,7 @@ img {
   display: block;
 }
 h1 {
-  font-family: "new-spirit", sans-serif;
+  font-family: var(--title-font-family), "Uni Sans Heavy";
 }
 
 /**----global css done---**/
@@ -193,8 +199,7 @@ h1 {
 .primary-title {
   font-size: var(--primary-title-font-size);
   line-height: 120%;
-  font-family: "new-spirit", serif;
-  letter-spacing: -0.08em;
+  font-family: var(--title-font-family), serif;
 }
 
 .hero-description {
@@ -253,6 +258,13 @@ h1 {
 
 .voice-channel {
   background-color: var(--off-white-clr);
+}
+
+/*---feeback channel---*/
+
+.feedback-channel {
+  background-color: var(--off-white-clr);
+  border-radius: 25px
 }
 
 /*----video call---*/
@@ -432,6 +444,11 @@ h1 {
   }
   .grid-image {
     margin: auto 0;
+  }
+  
+    .grid-feedback {
+    margin: auto 0;
+	border-radius: 25px
   }
   .text-group {
     margin-top: 0;
