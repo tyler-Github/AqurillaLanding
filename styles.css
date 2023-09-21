@@ -1,18 +1,18 @@
 /*---fonts files addings--*/
 
 @font-face {
-  font-family: "Whitney Light";
-  src: url("./assets/fonts/whitneylight.woff") format("woff");
+  font-family: "GT Maru Light";
+  src: url("./assets/fonts/GTMaruLight.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Whitney Medium";
-  src: url("./assets/fonts/whitneymedium.woff") format("woff");
+  font-family: "GT Maru Medium";
+  src: url("./assets/fonts/GTMaruMedium.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Whitney Bold";
-  src: url("./assets/fonts/whitneybold.woff") format("woff");
+  font-family: "GT Maru Bold";
+  src: url("./assets/fonts/GTMaruBold.woff") format("woff");
 }
 
 @font-face {
@@ -32,9 +32,9 @@
   --general-font-size: 2rem;
   --primary-title-font-size: 4.8rem;
   --secondary-title-font-size: 4rem;
-  --main-font-family-light: "Whitney Light", sans-serif;
-  --main-font-family-medium: "Whitney Medium", sans-serif;
-  --main-font-family-bold: "Whitney Bold", sans-serif;
+  --main-font-family-light: "GT Maru Light", sans-serif;
+  --main-font-family-medium: "GT Maru Medium", sans-serif;
+  --main-font-family-bold: "GT Maru Bold", sans-serif;
   --title-font-family: "new-spirit", sans-serif;
   --num-of-grid-columns: 4;
   --section-spacing: 5.6rem 2.4rem;
